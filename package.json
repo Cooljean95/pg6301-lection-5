@@ -21,9 +21,14 @@
     "url": "https://github.com/Cooljean95/pg6301-lection-5/issues"
   },
   "homepage": "https://github.com/Cooljean95/pg6301-lection-5#readme",
-  "dependencies": {},
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^6.2.2"
+  },
   "devDependencies": {
     "husky": "^7.0.0",
+    "parcel": "^2.3.2",
     "prettier": "^2.5.1"
   }
 }
