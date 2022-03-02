@@ -1,0 +1,21 @@
+{
+  "name": "pg6301-lection-5",
+  "version": "1.0.0",
+  "description": "Heroku",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd server && npm start",
+    "build": "cd server && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cooljean95/pg6301-lection-5.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cooljean95/pg6301-lection-5/issues"
+  },
+  "homepage": "https://github.com/Cooljean95/pg6301-lection-5#readme"
+}
