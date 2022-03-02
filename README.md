@@ -20,4 +20,4 @@ Js Node installation list
 * npm install -D nodemon
 * npm install -D prettier
 * npm husky install && npx husky install (google husky dependencies)
-* 
+* npm install -D @parcel/transformer-react-refresh-wrap
