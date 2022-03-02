@@ -6,7 +6,10 @@
   "scripts": {
     "start": "cd server && npm start",
     "build": "cd server && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write **/*.{js,jsx,jts,tsx}",
+    "format:check": "prettier --check **/*.{js,jsx,jts,tsx}",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -17,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/Cooljean95/pg6301-lection-5/issues"
   },
-  "homepage": "https://github.com/Cooljean95/pg6301-lection-5#readme"
+  "homepage": "https://github.com/Cooljean95/pg6301-lection-5#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "husky": "^7.0.0",
+    "prettier": "^2.5.1"
+  }
 }
